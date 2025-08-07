@@ -383,3 +383,88 @@ especies-protegidas {
   text-align: center;
   margin-top: 10px; /* Aumenta el espacio aquí */
 }
+
+/* =========================
+  DISEÑO RESPONSIVO - MÓVILES
+========================= */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .seccion {
+    padding: 40px 15px;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario input,
+  .formulario select,
+  .formulario label {
+    width: 100%;
+  }
+
+  .footer-columnas {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inicio-contenedor {
+    flex-direction: column;
+  }
+
+  .noticias {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .impacto-metrico {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .impacto-item h3 {
+    font-size: 24px;
+  }
+
+  .logo-nombre h1 {
+    font-size: 22px;
+  }
+
+  .lema {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+
+  .carrusel {
+    height: auto;
+  }
+
+  .carrusel-img {
+    height: auto;
+    max-height: 300px;
+  }
+
+  .noticia {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .noticia img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
